@@ -7,7 +7,6 @@ setuptools.setup(
     long_description=open('README.md').read(),
     url='https://github.com/notmarek/BeFake',
     author='Marek Veselý',
-    license='Unlicense',
     entry_points={'console_scripts': ['befake=BeFake.__main__:cli']},
     packages=setuptools.find_packages(),
     install_requires=[line.strip() for line in open("requirements.txt").readlines()],
